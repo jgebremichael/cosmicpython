@@ -8,7 +8,7 @@ Reference = NewType("Reference", str)
 
 @dataclass(frozen=True)
 class OrderLine:
-    ordered:str
+    orderid:str
     sku:str
     qty:int
 
